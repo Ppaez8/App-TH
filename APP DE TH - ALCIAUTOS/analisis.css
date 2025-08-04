@@ -1,0 +1,66 @@
+/* analisis.css */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #000000; /* azul oscuro */
+    color: #e2e8f0; /* gris muy claro */
+  }
+  
+  header {
+    text-align: center;
+    padding: 1rem;
+    background-color: #1e293b;
+    color: #93c5fd;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-bottom: 1px solid #334155;
+  }
+  
+  main {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    color: #3b82f6;
+    margin-bottom: 1rem;
+  }
+  
+  .filtros {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .filtros select {
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: none;
+    background-color: #1e293b;
+    color: #f1f5f9;
+    font-size: 1rem;
+  }
+  
+  .chart-container {
+    background-color: #1e293b;
+    border-radius: 12px;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  canvas {
+    width: 100% !important;
+    height: auto !important;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    color: #64748b;
+    border-top: 1px solid #334155;
+    margin-top: 3rem;
+  }
+  

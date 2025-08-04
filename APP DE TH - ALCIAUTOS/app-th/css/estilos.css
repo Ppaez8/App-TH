@@ -1,0 +1,311 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #000; /* fondo negro */
+  color: #fff;
+}
+
+h1, p {
+  margin: 0;
+}
+
+.titulo-principal {
+  text-align: center;
+  padding-top: 2rem;
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+.contenedor-inicio {
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.tarjetas-inicio {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.tarjeta {
+  background-color: #1f2937;
+  padding: 1.5rem;
+  border-radius: 12px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 1rem;
+  transition: background 0.3s ease;
+  box-shadow: 0 4px 8px rgba(255,255,255,0.1);
+}
+
+.tarjeta:hover {
+  background-color: #2b3a4b;
+}
+
+.tarjeta img {
+  width: 48px;
+  height: 48px;
+}
+
+.footer-con-logo {
+  background-color: #111;
+  color: #ccc;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 3rem;
+}
+
+.logo-footer {
+  width: 100px;
+  margin-top: 0.5rem;
+}
+
+VISUAL GESTION
+
+.gestion h1 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.form-seccion {
+  margin-bottom: 1.0rem;
+}
+
+input[type="text"], input[type="file"] {
+  padding: 0.5rem;
+  border-radius: 10px;
+  border: none;
+  width: 80%;
+  margin-top: 0.5rem;
+}
+
+.boton, .boton-secundario {
+  padding: 0.8rem 1.5rem;
+  display: block;
+  margin: 2rem auto;
+  text-align: center;  
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: #1e3a8a;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.botones-documental button:hover {
+  background-color: #1e40af;
+}
+
+.boton {
+  background-color: #1e3a8a;
+  color: white;
+}
+
+.boton:hover {
+  background-color: #1e40af;
+}
+
+.boton-secundario {
+  background-color: #374151;
+  color: white;
+}
+
+.boton-eliminar {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  color: red;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.lista-archivos ul {
+  list-style: none;
+  padding: 0;
+}
+
+.lista-archivos li {
+  background-color: #111827;
+  color: white;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.volver {
+  display: block;
+  text-align: center;
+  margin-top: 2rem;
+  color: #1e3a8a;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/*ESTILOS DE LA PAGINA CREAR/*
+/* Estilos para botones verticales como en el inicio */
+.contenedor-botones {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 300px;
+  margin: 2rem auto;
+}
+
+.boton-opcion {
+  display: block;
+  padding: 1.2rem;
+  background-color: #1e3a8a;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.boton-opcion:hover {
+  background-color: #1e40af;
+}
+
+.btn-volver {
+  display: block;
+  margin: 2rem auto;
+  text-align: center;
+  color: #ccc;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+/* Para que el body ocupe toda la altura */
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Para que el contenido principal se estire y empuje el footer hacia abajo */
+main {
+  flex: 1;
+}
+
+/* Footer fijo al fondo siempre */
+.footer-con-logo {
+  background-color: #000;
+  color: #ccc;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  border-top: 1px solid #333;
+}
+
+.logo-footer {
+  width: 80px;
+  margin-top: 0.5rem;
+}
+
+VISUAL CONTRATOS
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #000000;
+  color: #e2e8f0;
+}
+
+header {
+  text-align: center;
+  padding: 1rem;
+  background-color: #1e293b;
+  color: #93c5fd;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-bottom: 1px solid #334155;
+}
+
+main {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h2 {
+  color: #3b82f6;
+  margin-bottom: 1rem;
+}
+
+.formulario .grupo-campo {
+  margin-bottom: 1.2rem;
+}
+
+.formulario label {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-weight: bold;
+}
+
+.formulario input,
+.formulario select {
+  width: 100%;
+  padding: 0.5rem;
+  background-color: #1e293b;
+  border: none;
+  color: #e2e8f0;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.boton-enviar {
+  background-color: #2563eb;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.boton-enviar:hover {
+  background-color: #1d4ed8;
+}
+
+.btn-volver {
+  display: block;
+  margin-top: 2rem;
+  text-align: center;
+  color: #93c5fd;
+  text-decoration: none;
+}
+
+.oculto {
+  display: none;
+}
+
+.footer-con-logo {
+  text-align: center;
+  padding: 1rem;
+  color: #64748b;
+  border-top: 1px solid #334155;
+  margin-top: 3rem;
+}
+
+.logo-footer {
+  margin-top: 0.5rem;
+  width: 80px;
+  height: auto;
+}
